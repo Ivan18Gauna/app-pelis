@@ -1,0 +1,27 @@
+.movieCard {
+  list-style: none;
+}
+.movieCard:hover {
+  opacity: 0.8;
+}
+.movieImage {
+  border-radius: 15px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.title {
+  font-size: 1.2rem;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 560px) {
+  .movieCard {
+    text-align: center;
+    grid-template-columns: 100%;
+  }
+}
