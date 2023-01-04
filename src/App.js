@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./components/Home";
+import { Spinner } from "./components/Spinner";
 import MovieDetails from "./pages/MovieDetails";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <Route path="*" element={<Home />} />
         <Route path="/" element={<Home />} />
         <Route path="/movie/:movieId" element={<MovieDetails />} />
+        <Route path="/spinner" element={<Spinner />} />    
       </Routes>
     </div>
   );
